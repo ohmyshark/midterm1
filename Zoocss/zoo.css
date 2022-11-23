@@ -1,0 +1,86 @@
+body {background-color: #5c4d7d;}
+
+header {background-image: url('../Zooimages/giraffedrawn.gif');
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+text-align: center;
+font-size: 40px;
+padding: 1em;
+color: #f0f3bd;
+font-family: 'IBM Plex Sans', sans-serif;
+}
+header a{text-decoration: none;}
+header a:link{color:#02c39a;}
+header a:visited{color: #f0f3bd;}
+header a:hover{color: #BFD2BF;
+background-color: #2B2D42;
+opacity: 0.5;}
+
+nav {background-color: #455e89;
+      font-weight: bold;
+    font-size: 1.5em;
+    text-align: center;
+  padding: 0.5em;
+  text-indent: 1em;
+  margin-left: 100px;
+  margin-right: 100px;}
+
+nav a {text-decoration: none;}
+nav a:link {color: #000066;}
+nav a:visited {color: #02c39a;}
+nav a:hover {color: #006d77;
+background-color: #4a4e69;
+}
+
+* {box-sizing: border-box;}
+
+main {padding-left: 2em;
+padding-right: 2em;
+margin-left: 100px;
+margin-right: 100px;
+background-color: #f0f3bd;
+overflow: auto;
+display: block;
+border-style: solid;
+border-width: 5px;
+border-color: #892b64
+}
+
+h2 {text-indent: 1.1em;
+    text-shadow: 1px 1px 1px #777;
+  color:#023047;
+    text-align: left;
+    font-family: 'Vesper Libre', serif;
+    background-color: #cbdfbd;
+  }
+
+
+    footer {font-size:1em;
+      font-style:italic;
+    text-align: center;
+    padding:2em;
+    background-color: #34a0a4;
+
+    }
+p {background-color: #fff0f3;
+font-family: 'IBM Plex Sans', sans-serif;
+font-size: 16px;
+color: #0091ad;
+border-style: dotted;
+}
+
+#details {padding-left: 30%;
+          padding-right: 25%;
+          padding-top: .5%;
+          overflow: auto;}
+#details2{opacity: 0.5;
+          padding-left: 40%;
+          padding-right: 35%;
+          overflow: auto;
+          }
+ul {font-style: italic;
+    font-size: 20px;}
+a {text-decoration: none;}
+a:hover{background-color: #b7094c;
+        opacity: 1;}
